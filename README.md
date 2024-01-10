@@ -1,5 +1,7 @@
 # movingDVD
 
+Для реализации движения логотипа DVD по вашей панели на JavaFX, вам нужно будет написать следующий код:
+```java
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
@@ -75,3 +77,4 @@ public class MovingLogo extends Application {
         launch(args);
     }
 }
+```
